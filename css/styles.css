@@ -284,21 +284,25 @@ color:var(--main-title-color);
 /* Portfolio */
 .portfolio-list-button{
   display:flex;
-  margin-top:94px;
   justify-content: center;
-
-
-  
+  margin-bottom:34px;
 }
-.card-set{
+.portfolio-card-set{
  padding:0;
  margin:0;
  display:flex;
  flex-wrap:wrap;
-}
-.card-set > .item{
+ margin-left: -30px;
+ margin-bottom:-30px;
  
-  
+}
+.portfolio-card-set > .portfolio-item{
+ flex-basis:calc(100%/3- 30px);
+ margin-left: 30px;
+ margin-bottom:30px;
+}
+.portfolio-card-content{
+  padding:20px 24px;
 }
 
 
@@ -330,12 +334,15 @@ color:var(--main-title-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom:4px;
   color:var(--title-color);
 }
 .portfolio-text{
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
+
+
 color:var(--text-color);
 }
 
