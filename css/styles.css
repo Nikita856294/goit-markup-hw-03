@@ -291,15 +291,13 @@ color:var(--main-title-color);
   
 }
 .card-set{
- outline:1px solid tomato;
  padding:0;
  margin:0;
  display:flex;
  flex-wrap:wrap;
 }
 .card-set > .item{
-  outline:1px solid teal;
-  flex-basis:calc(100%/90px)
+ 
   
 }
 
