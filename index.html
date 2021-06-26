@@ -40,15 +40,15 @@
     </header>
     <!--Main content section-->
     <main>
-      <section class="main-section section">
+      <section class="main-section">
         <div class="container">
         <h1 class="main-title main-title-section">Эффективные решения <br>для вашего бизнеса</h1>
         <button type="button" class="main-btn main-btn-section">Заказать услугу</button>
       </div>
       </section>
-      <section class="section">
-       <div class="container section-container"> 
-        <h2 hidden>Наши преимущества</h2>
+      <section class="section-advantages">
+       <div class="container"> 
+        <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="section-list">
           <li class="list section-item">
             <h3 class="link-title  title-list-advantages ">Внимание к деталям</h3>
@@ -83,10 +83,10 @@
       </section>
 
       <section class="section">
+        <div class=" container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <div class="section-container container">
         <ul class="section-list">
-          <li class="section-item list">
+          <li class="section-item  list">
             <img
               src="./images/box 1.jpg"
               alt="Работник пишет код"
@@ -94,7 +94,7 @@
               height="294"
             />
           </li>
-          <li class="section-item list">
+          <li class="section-item  list">
             <img
               src="./images/box 2.jpg"
               alt="Работник занимается дизайном"
@@ -102,7 +102,7 @@
               height="294"
             />
           </li>
-          <li class="section-item list">
+          <li class="section-item  list">
             <img
               src="./images/box 3.jpg"
               alt="Работник занимается рисовкой"
@@ -115,48 +115,57 @@
       </section>
 
       <section class="our-team section">
+        <div class=" container">
         <h2 class="section-title">Наша команда</h2>
-        <div class="section-container container">
+        
         <ul class="section-list">
-          <li class="section-item list">
+          <li class="section-item our-team-content list">
             <img
               src="./images/img.jpg"
-              alt="фото Игоря Демьяненко"
+              alt=" фото Игоря Демьяненко"
               width="270"
               height="260"
             />
-            <h3 class="section-title-list card-title" >Игорь Демьяненко</h3>
+            <div class="our-team-box">
+            <h3 class="section-title-list ">Игорь Демьяненко</h3>
             <p class="section-text card-content">Product Designer</p>
+          </div>
           </li>
-          <li class="section-item list">
+          <li class="section-item our-team-content list">
             <img
               src="./images/img 2.jpg"
               alt=" фото Ольги Репиной"
               width="270"
               height="260"
             />
-            <h3 class="section-title-list card-title">Ольга Репина</h3>
+            <div class="our-team-box">
+            <h3 class="section-title-list ">Ольга Репина</h3>
             <p class="section-text card-content">Frontend Developer</p>
+          </div>
           </li>
-          <li class="section-item list">
+          <li class="section-item our-team-content list">
             <img
               src="./images/img 3.jpg"
               alt="фото Николая Тарасова"
               width="270"
               height="260"
             />
-            <h3 class="section-title-list card-title">Николай Тарасов</h3>
+            <div class="our-team-box">
+            <h3 class="section-title-list ">Николай Тарасов</h3>
             <p class="section-text card-content">Marketing</p>
+          </div>
           </li>
-          <li class="section-item list">
+          <li class="section-item our-team-content list">
             <img
               src="./images/img 4.jpg"
               alt=" фото Михаила Ермакова"
               width="270"
               height="260"
             />
-            <h3 class="section-title-list card-title">Михаил Ермаков</h3>
+            <div class="our-team-box">
+            <h3 class="section-title-list">Михаил Ермаков</h3>
             <p class="section-text card-content">UI Designer</p>
+          </div>
           </li>
         </ul>
       </div>
@@ -164,14 +173,14 @@
     </main>
     <!--footer-->
     <footer class="footer-section">
-      <div class="footer-div ">
-      <a href="" class="link"
-        ><span class="company-span footer-name-company"><span>Web</span><span class="name-company-span">Studio</span></a>
+      <div class="container ">
+      <a href="" class="link footer-name-company"
+        ><span class="company-span "><span>Web</span><span class="name-company-span">Studio</span></a>
       
       <address class="address-text footer-content">г. Киев, пр-т Леси Украинки, 26</address>
       <ul class="footer-list">
-        <li class="footer-content list"><a href="mailto:info@example.com" class="footer-link link">info@example.com</a></li>
-        <li class="footer-content list"><a href="tel:+380991111111" class="footer-link link">+38 099 111 11 11</a></li>
+        <li class="footer-item list"><a href="mailto:info@example.com" class="footer-link link">info@example.com</a></li>
+        <li class="footer-item list"><a href="tel:+380991111111" class="footer-link link">+38 099 111 11 11</a></li>
       </ul>
     </div>
     </footer>
