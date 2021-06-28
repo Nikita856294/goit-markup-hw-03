@@ -89,7 +89,7 @@ body {
   display: flex;
   margin-left: auto;
 }
-.header-link-container-item {
+.header-link-container-item:not(:last-child) {
   margin-right: 50px;
 }
 .name-company-container {
@@ -170,6 +170,9 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0;
   color: var(--color-button);
 }
 /* section components */
@@ -327,7 +330,8 @@ focus {
   line-height: 1.62;
   letter-spacing: 0.03em;
   border: 0;
-  margin-right: 8px;
+  padding: 6px 22px;
+  border-radius: 4px;
   color: var(--title-color);
 }
 .portfolio-button:hover,
